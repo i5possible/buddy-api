@@ -1,0 +1,46 @@
+{
+  "tasks": [
+    {
+      "PutRequest": {
+        "Item": {
+          "taskListId": {
+            "S": "1"
+          },
+          "taskId": {
+            "S": "1"
+          },
+          "content": {
+            "S": "First Task"
+          },
+          "status": {
+            "S": "doing"
+          },
+          "dueDate": {
+            "S": "2019-09-11T15:51:34.269Z"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "taskListId": {
+            "S": "2"
+          },
+          "taskId": {
+            "S": "2"
+          },
+          "content": {
+            "S": "Second Task"
+          },
+          "status": {
+            "S": "waiting"
+          },
+          "dueDate": {
+            "S": "2019-09-12T15:51:34.269Z"
+          }
+        }
+      }
+    }
+  ]
+}

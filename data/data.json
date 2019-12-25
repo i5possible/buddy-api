@@ -1,0 +1,101 @@
+{
+  "general": [
+    {
+      "PutRequest": {
+        "Item": {
+          "PK": {
+            "S": "application-4b2f4445-7ddf-437f-a662-aaace38ee96e"
+          },
+          "SK": {
+            "S": "metadata"
+          },
+          "data": {
+            "S": "First Application"
+          },
+          "LVR": {
+            "N": "70"
+          },
+          "lastUpdated": {
+            "S": "2019-09-11T15:51:34Z"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "PK": {
+            "S": "application-4b2f4445-7ddf-437f-a662-aaace38ee96e"
+          },
+          "SK": {
+            "S": "status-submitted-2019-09-11T15:51:34Z"
+          },
+          "data": {
+            "S": "Some One"
+          },
+          "Writer": {
+            "S": "Another One"
+          }
+        }
+      }
+    },{
+      "PutRequest": {
+        "Item": {
+          "PK": {
+            "S": "application-4b2f4445-7ddf-437f-a662-aaace38ee96e"
+          },
+          "SK": {
+            "S": "lender-a49b3bda-69ba-4d46-952e-c9a6c0806165"
+          },
+          "data": {
+            "S": "China Merchants Bank"
+          },
+          "portalLink": {
+            "S": "www.baidu.com"
+          }
+        }
+      }
+    },{
+      "PutRequest": {
+        "Item": {
+          "PK": {
+            "S": "application-4b2f4445-7ddf-437f-a662-aaace38ee96e"
+
+          },
+          "SK": {
+            "S": "loans-11a6504a-34b0-4326-a189-117969118c3b"
+          },
+          "data": {
+            "S": "Some Awesome Loan"
+          },
+          "amount": {
+            "N": "4000000"
+          },
+          "rate": {
+            "N": "4.90"
+          }
+        }
+      }, "PutRequest": {
+        "Item": {
+          "PK": {
+            "S": "application-4b2f4445-7ddf-437f-a662-aaace38ee96e"
+
+          },
+          "SK": {
+            "S": "loans-d16fffb8-c2bf-4b4d-b0dc-f899a579ddce"
+          },
+          "data": {
+            "S": "Some Small Loan"
+          },
+          "amount": {
+            "N": "330000"
+          },
+          "rate": {
+            "N": "3.90"
+          }
+        }
+      }
+
+    }
+  ]
+}
